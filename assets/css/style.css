@@ -1,0 +1,9 @@
+body {
+  line-height: 1.6;
+}
+
+.header {
+  background-color: darkcyan;
+  padding-top: 10px;
+  text-align: center;
+}
