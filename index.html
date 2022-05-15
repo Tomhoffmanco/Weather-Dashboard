@@ -13,7 +13,7 @@
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
    
-   <link rel="stylesheet" href="Assets/CSS/style.css">
+   <link rel="stylesheet" href="assets/CSS/style.css">
 
 
     <!-- Sets viewport scaling to be consistent across devices -->
@@ -25,11 +25,11 @@
        <h1 class="center"> <i class="fas fa-cloud-sun"></i> Weather Dashboard <i class="fas fa-cloud-moon-rain"></i> </h1>
    </nav>
 
-   <div class="container">
+   <div class="container-fluid">
        <div class="row">
            <div class="col-12 col-md-4 col-lg-3">
                <div class="card">
-                   <h4 class="card-header">Search By City</h3>
+                   <h4 class="card-header mt-3">Search By City</h3>
                    <form id="search-form" class="card-body">
                        <!-- Input accept cities to search for from user -->
                        <input name="city-name" id="city-name" type="text" class="form-input my-2" />
@@ -49,7 +49,7 @@
            <div class="cold-12 col-md-8 col-lg-9">
                <!-- Current Forecast Container -->
                <div class="card" id="current-forecast">
-                   <h3 class="card-header"></h3>
+                   <h3 class="card-header mt-3"></h3>
                    <div class="card-body">
                        <!-- Empty ul to hold current weather lis from script.js -->
                        <ul id="conditions">
@@ -57,7 +57,7 @@
                        </ul>
                    </div>
                </div>
-               <h4 class="p-2 mt-3" id="five-day">5-Day Forecast</h4>
+               <h4 class="p-2 mt-5" id="five-day">5-Day Forecast</h4>
                <!-- Empty div to hold dailyCards from script.js -->
                <div class="d-inline-flex flex-wrap p-2" id="daily-forecast">
                    
@@ -67,9 +67,22 @@
    </div>
 
 
-    <footer>Weather Dashboard &copy 2022</footer>
+    <footer class="text-center">Weather Dashboard &copy 2022
+
+        <link
+				rel="stylesheet"
+				type="text/css"
+				href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+			/>
+			Made <i class="icon ion-heart"></i> By
+			<a href="https://github.com/tomhoffmanco" target="blank">
+				Thomas hoffman</a
+			>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
+
+
